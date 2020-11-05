@@ -4,3 +4,4 @@
 4. updated gemstone_routes
 5. Updated server.js
 6. Tested the gemstone index, create, show, update , and destroy. And everything works.
+8. pushed everything up
