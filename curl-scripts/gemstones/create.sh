@@ -11,8 +11,7 @@ curl "${API}${URL_PATH}" \
   --data '{
     "gemstone": {
       "name": "'"${NAME}"'",
-      "price": "'"${PRICE}"'",
-      "owner": "'"${OWNER}"'"
+      "price": "'"${PRICE}"'"
     }
   }'
 
