@@ -3,10 +3,9 @@
 API="http://localhost:4741"
 URL_PATH="/gemstones/:id"
 
-curl "${API}${URL_PATH}" \
+curl "${API}${URL_PATH}/${ID}" \
   --include \
   --request GET \
-  --header "Content-Type: application/json" \
-  --header "Authorization: Bearer ${TOKEN}" 
+  --header "Authorization: Bearer ${TOKEN}"
 
 echo
